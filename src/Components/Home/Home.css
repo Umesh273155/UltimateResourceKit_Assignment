@@ -1,0 +1,59 @@
+.home_Main_container{
+    display:flex;
+   background-color: rgb(198, 252, 252);
+   
+    margin-right:20px;
+  /* margin-left:10px; */
+    margin-right:0;
+   flex-wrap: wrap; 
+
+}
+.navIcon_RecentTransaction_Box{
+display:flex;justify-content:flex-start;flex-wrap:no-wrap;
+border:1px solid white;
+margin-right:7px;
+
+}
+
+@media(max-width:1300px){
+
+
+.box3{
+    margin-left:7%;
+}
+.box:nth-child(1){
+order:2;
+}
+.box:nth-child(2){
+    order:1;
+}
+}
+
+@media(max-width:1024px){
+    .box3{
+        margin-left:70px;
+        margin-right:0;
+    }
+}
+@media(max-width:725px){
+    .box3{
+        margin-left:12px;
+    } 
+}
+@media(max-width:660px){
+    .box3{
+        margin-left:0;
+    }  
+    .home_Main_container{
+        justify-content: center;
+    }
+    .navCompDiv{
+        display:none;
+    }
+    .navIcon_RecentTransaction_Box{
+        border-radius:14px;
+        margin-top:15px;
+        margin-left:10px;
+        margin-bottom:10px;
+    }
+}
